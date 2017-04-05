@@ -41,6 +41,7 @@ void PilihA(){
     }
       else if (min > data) {
         min = data;
+        jumlah = 1;
       }
         else if (min < data) {}
 
@@ -63,6 +64,7 @@ void PilihA(){
       }
         else if (max < data) {
           max = data;
+          jumlah = 1;
         }
           else if (max > data) {}
 
