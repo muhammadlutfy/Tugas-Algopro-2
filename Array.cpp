@@ -19,7 +19,7 @@ using namespace std;
 		cout << "Data yang anda masukan adalah : \n";
 		cout << "| ";
 			for (int b=0;b<10;b++) {
-				cout << chara[b] << " | ";
+				cout << chara[b] << " | " ;
 			}
 		cout <<endl<< "Banyak karakter 'A' berjumlah "<< jumlah << " buah.";
 		cin.get();
